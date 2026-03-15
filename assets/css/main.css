@@ -2022,6 +2022,10 @@ input, select, textarea {
 				padding-bottom: 0;
 			}
 
+			header.major.last h1 {
+				color:#474148;
+			}
+
 				header.major.last:after {
 					display: none;
 				}
@@ -2833,7 +2837,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
 			color: #ffffff;
 		}
 
