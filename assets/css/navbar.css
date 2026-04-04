@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    justify-content: space-evenly;
+}
+.nav-item {
+    color: #634832;
+}
+
+.nav-link {
+    text-decoration: none;
+    border: none;
+}

@@ -115,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #ffbde8;
+		color: #634832;
 		text-decoration: none;
 	}
 
@@ -2747,7 +2747,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #ffbde8;
+				color: #634832;
 			}
 
 		#header strong, #header b {
@@ -2767,7 +2767,7 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #ffbde8;
+			background: #634832;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2851,7 +2851,7 @@ input, select, textarea {
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffbde8;
+			color: #634832;
 		}
 
 			#footer input[type="submit"]:hover,
