@@ -2807,7 +2807,10 @@ input, select, textarea {
 		margin-top: -260px;
 		padding: calc(460px + 6em) 0 10em 0;
 		position: relative;
+		flex-direction: column;
+		align-items: center;
 		text-align: center;
+		display: flex;
 	}
 
 		#footer:before {
