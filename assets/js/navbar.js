@@ -1,4 +1,4 @@
-let burger = document.querySelector('.navbar-toggler');
+let burger = document.querySelector('.burger');
 let navLinks = document.querySelector('.navbar-links');
 
 burger.addEventListener('click', () => {
