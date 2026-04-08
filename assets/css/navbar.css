@@ -27,7 +27,7 @@
     border-bottom: solid;
 }
 
-.navbar-toggler {
+.burger {
     display: none;
 }
 
@@ -54,7 +54,7 @@
         background-color: #ffffff;
     }
 
-    .navbar-toggler {
+    .burger {
         display: flex;
         width: 20px;
         height: 20px;
