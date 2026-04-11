@@ -2518,10 +2518,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background: #634832;
 		border-radius: 4px;
 		border: 0;
@@ -2588,6 +2588,21 @@ input, select, textarea {
 		input[type="button"].small,
 		.button.small {
 			font-size: 0.8em;
+		}
+
+		.button.certificates {
+			min-width: 2em;
+			background: none;
+			padding: 0 0.7em;
+			border: 2px solid #594a3d;
+			font-size: 0.7em;
+			line-height: 2em;
+			color: #594a3d;
+		}
+
+		.button.certificates:hover {
+			border-color: #5b5b5b;
+			color: #5b5b5b;
 		}
 
 /* Box */
@@ -3299,3 +3314,31 @@ input, select, textarea {
 				}
 
 	}
+
+/* Tooltip text */
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted black; /* Add dots under the hoverable text */
+		cursor: pointer;
+		}
+
+	.tooltiptext {
+		visibility: hidden; /* Hidden by default */
+		width: max-content;
+		top: 100%;
+  		left: 50%;
+		background-color: #594a3d;
+		color: #ffffff;
+		text-align: center;
+		font-size: 14px;
+		padding: 0 4px;
+		border-radius: 6px;
+		position: absolute;
+		z-index: 2; /* Ensure tooltip is displayed above content */
+		}
+
+	/* Show the tooltip text on hover */
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+		}
