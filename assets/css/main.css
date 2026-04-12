@@ -2820,7 +2820,7 @@ input, select, textarea {
 			*/
 
 		margin-top: -260px;
-		padding: calc(460px + 6em) 0 10em 0;
+		padding: calc(460px + 4em) 0 10em 0;
 		position: relative;
 		flex-direction: column;
 		align-items: center;
@@ -2831,7 +2831,7 @@ input, select, textarea {
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
-			height: calc(460px + 6em);
+			height: calc(460px + 4em);
 			left: 50%;
 			position: absolute;
 			top: 0;
@@ -3063,11 +3063,11 @@ input, select, textarea {
 				background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
 				margin-top: -100px;
-				padding: calc(230px + 4em) 0 6em 0;
+				padding: calc(230px + 2em) 0 6em 0;
 			}
 
 				#footer:before {
-					height: calc(230px + 4em);
+					height: calc(230px + 2em);
 				}
 
 		/* Main */
@@ -3219,11 +3219,11 @@ input, select, textarea {
 				background-image: url("images/bottom-1280.svg");
 				background-size: 1280px 184px;
 				margin-top: -75px;
-				padding: calc(184px + 2em) 0 2em 0;
+				padding: calc(184px) 0 2em 0;
 			}
 
 				#footer:before {
-					height: calc(184px + 2em);
+					height: calc(184px);
 				}
 
 				#footer form {
@@ -3332,7 +3332,7 @@ input, select, textarea {
 		color: #ffffff;
 		text-align: center;
 		font-size: 14px;
-		padding: 0 4px;
+		padding: 2px 2px;
 		border-radius: 6px;
 		position: absolute;
 		z-index: 2; /* Ensure tooltip is displayed above content */
