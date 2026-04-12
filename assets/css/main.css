@@ -119,7 +119,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom: solid;
+			border-bottom: solid #634832;
 		}
 
 	strong, b {
