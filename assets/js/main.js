@@ -27,3 +27,14 @@
 		});
 
 })(jQuery);
+
+
+/* image slideshows */
+
+let truffles = document.getElementById('Truffles-image');
+let imagenum = 0;
+
+setInterval(() => {;
+	truffles.src = `./abtme_pg_media/Truffles/Truffles${imagenum+1}.jpeg`;
+	imagenum = (imagenum +1)%6;
+}, 3000);
