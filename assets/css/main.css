@@ -2923,6 +2923,11 @@ input, select, textarea {
 						color: #ffffff;
 					}
 
+/* form */					
+	.form {	
+		width: 700px;
+		height: 900px;
+	}
 /* Main */
 
 	#main {
@@ -3322,7 +3327,22 @@ input, select, textarea {
 
 	}
 
+/* Subpage Header */
+
+#header.subpage {
+    background-image: url("../../images/634832.png"), url("../../images/634832.png");
+}
+	@media screen and (max-width: 1280px) {
+        #header.subpage {
+    background-image: url("../../images/634832.png"), url("../../images/634832.png");
+    padding-top: 47px;
+    padding-bottom: 47px;
+
+        }
+    }
+
 /* Tooltip text */
+
 	.tooltip {
 		position: relative;
 		display: inline-block;
