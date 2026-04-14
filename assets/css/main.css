@@ -119,7 +119,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom: solid #634832;
+			border-bottom: solid #dbc1ac;
 		}
 
 	strong, b {
@@ -2558,7 +2558,7 @@ input, select, textarea {
 		.button.alt {
 			background: none;
 			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-			color: #38220f;
+			color: #dbc1ac;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2761,7 +2761,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #634832;
+				color: #dbc1ac;
 			}
 
 		#header strong, #header b {
