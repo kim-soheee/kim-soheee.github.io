@@ -66,6 +66,6 @@ climb.addEventListener('ended', () => {
 	climb.src = `./abtme_pg_media/Climb/Climb${climb_vidnum+1}.mp4`;
 	climb_vidnum = (climb_vidnum +1)%4;
 	climb.play();
-	console.log('hi seabert');
+	console.log('hello holash');
 });
 
