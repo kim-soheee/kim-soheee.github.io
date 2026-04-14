@@ -2638,6 +2638,7 @@ input, select, textarea {
 
 		.feature .image {
 			display: inline-block;
+			object-fit: cover;
 			height: 100%;
 			overflow: hidden;
 			position: relative;
