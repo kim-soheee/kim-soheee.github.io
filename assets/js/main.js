@@ -43,7 +43,7 @@ let youth_imagenum = 0;
 let camp = document.getElementById('Camp-image');
 let camp_imagenum = 0;
 
-setInterval(() => {;
+setInterval(() => {
 	truffles.src = `./abtme_pg_media/Truffles/Truffles${truffles_imagenum+1}.jpeg`;
 	truffles_imagenum = (truffles_imagenum +1)%6;
 
@@ -57,4 +57,15 @@ setInterval(() => {;
 	camp_imagenum = (camp_imagenum +1)%7;
 }, 3000);
 
+/* video slideshow */
+
+let climb = document.getElementById('Climb-video');
+let climb_vidnum = 1;
+
+climb.addEventListener('ended', () => {
+	climb.src = `./abtme_pg_media/Climb/Climb${climb_vidnum+1}.mp4`;
+	climb_vidnum = (climb_vidnum +1)%4;
+	climb.play();
+	console.log('hi seabert');
+});
 

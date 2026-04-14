@@ -2713,6 +2713,13 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+
+/* VIDEO */
+
+	.feature video {
+		object-position: 0 30%;
+	}
+
 /* Header */
 
 	#header {
