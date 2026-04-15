@@ -150,9 +150,25 @@
 									<li>In class, we did some work with python through Kaggle, analyzing physiological data to calculate and plot metabolic thresholds. See below:</li>
 									<iframe src="https://www.kaggle.com/embed/soheekim102/kim-soheee-python-assignment?kernelSessionId=308588678" height="800" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="kim-soheee_Python_Assignment"></iframe>
 									<br>
-									<li> some more things python; to be embedded: run km chart ?</li>	
+									<br>
+									<li>Here's a side project I have done with Python: </li>
+									<li>Below, you can see my public strava logs from when I first started running with a wearable device (to collect heart rate data) up until my most recent run! 
+										You can see how each run fluctuates in number of kilometres and my calculated VO2max or each run. </li>
+									<section class="chart-section">
+										<div class="container">
+											<div class="controls">
+												<button class="prev kmchart-button">◀ Previous</button>
+												<button class="next kmchart-button">Next ▶</button>
+											</div>
+										<img id="chart" src="./kmcharts_svg/chart45.svg">
+										</div>
+									</section>
+									<li>I extracted my activity logs from the Strava cloudbase into a json file, 
+										and read in the necessary data from the logs to plot the kilometres run for each activity. 
+										An overlapping plot of calculated VO2max for each run was also plotted. 
+										<a href="https://github.com/kim-soheee/data-analysis/">Click here</a> for the Repository housing the Python source code behind this chart!</li>
+								</section>
 								</ul>
-							<li>Something work made ??</li>
 						</ul>
 					</section>
 
@@ -184,6 +200,8 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/navbar.js"></script>
+			<script src="assets/js/run-chart.js"></script>
+
 
 	</body>
 </html>
