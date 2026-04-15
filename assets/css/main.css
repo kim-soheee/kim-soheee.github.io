@@ -122,6 +122,10 @@ input, select, textarea {
 			border-bottom: solid #dbc1ac;
 		}
 
+		.a:has(img):hover {
+			border-bottom: none;
+		}
+
 	strong, b {
 		font-weight: 600;
 		color: #634832;
@@ -2186,6 +2190,11 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border-bottom: none;
+		}
+
+		.image img:hover {
+			border-bottom: none;
 		}
 
 		.image.fit {
